@@ -101,4 +101,9 @@ def meeting(s):
 print(meeting(s))
 """""""""
 
+text = input('enter text: ')
+reversed = text[::-1]
+print("reversed:",reversed)
+
+
 
