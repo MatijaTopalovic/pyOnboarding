@@ -100,10 +100,19 @@ def meeting(s):
 
 print(meeting(s))
 """""""""
-
+"""""""""
 text = input('enter text: ')
 reversed = text[::-1]
 print("reversed:",reversed)
+"""""""""
+
+def move_zeroes(arr):
+    non_zero = [x for x in arr if x != 0]
+
+    zero_count = arr.count(0)
+    return non_zero + [0] * zero_count
+
+print(move_zeroes([0,1,0,3,12,0]))
 
 
 
